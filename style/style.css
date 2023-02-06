@@ -1,6 +1,6 @@
 html {
   margin: -8px;
- 
+
   min-height: 100%;
 
   /* to see the border*/
@@ -33,6 +33,11 @@ a {
   display: flex;
   flex: 1;
 }
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+}
 .links-top {
   gap: 8px;
   justify-content: space-between;
@@ -43,12 +48,28 @@ a {
   flex: 1;
   padding: 30px;
   align-items: center;
+  gap: 30px;
 }
-.presentation-text-top{
-
+.presentation-text-top {
+  color: #f9faf8;
 }
-.title-hero{
-  
+.title-hero {
+  font-size: 48px;
+  font-weight: bolder;
+  width: 450px;
+}
+.text-hero {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.signUp {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: none;
+  padding: 8px 24px;
+  border-collapse: collapse;
+  border-radius: 6px;
+  margin-top: 12px;
 }
 .middle-high {
   align-items: center;
@@ -66,6 +87,7 @@ a {
 }
 .hero-wrap {
   flex-direction: column;
+  max-width: 450px;
 }
 .img {
   background-color: #3a475a;
