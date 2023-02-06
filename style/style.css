@@ -1,7 +1,10 @@
 html {
   margin: -8px;
-  border: 1px solid red;
+ 
   min-height: 100%;
+
+  /* to see the border*/
+  border: 1px solid red;
 }
 
 body {
